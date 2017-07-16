@@ -8,7 +8,7 @@
 	<extension point="xbmc.addon.repository" name="Kodinaz Repository ">
         <info compressed="false">https://raw.githubusercontent.com/nazofm/kodinaz/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nazofm/kodinaz/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nazofm/master/kodinaz/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/nazofm/kodinaz/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>www.kodinaz.com Repository</summary>
