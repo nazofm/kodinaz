@@ -1,0 +1,14 @@
+<addon id="repository.kjb" name="KJB Repo" version="1.0" provider-name="KJB">
+        <extension point="xbmc.addon.repository" name="KJB Repo">
+            <info compressed="false">https://offshoregit.com/kjb/addons.xml</info>
+            <checksum>https://offshoregit.com/kjb/addons.xml.md5</checksum>
+            <datadir zip="true">https://offshoregit.com/kjb/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>KJB Repo</summary>
+            <description>KJB Addons for Kodi. Please visit www.tvaddons.ag for assistance with this add-on.</description>
+            <platform>all</platform>
+            <forum>https://www.tvaddons.ag/forums/</forum>
+            <website>https://www.tvaddons.ag/</website>
+    </extension>
+</addon>

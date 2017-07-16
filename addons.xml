@@ -1,0 +1,167 @@
+<addons>
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.0.3" provider-name="kodinaz">
+    <requires>
+		<import addon="repository.kodil" version="1.3" />
+		<import addon="repository.smash" version="1.1.6" />
+		<import addon="repository.colossus" version="999.999.1" />		
+		<import addon="plugin.video.covenant" version="1.1.0" />
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodinaz Repository ">
+        <info compressed="false">http://www.kodinaz.com/kodinaz/addons.xml</info>
+        <checksum>http://www.kodinaz.com/kodinaz/addons.xml.md5</checksum>
+        <datadir zip="true">http://www.kodinaz.com/kodinaz/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>www.kodinaz.com Repository</summary>
+        <description>www.kodinaz.com offical repository [B]THE ADDONS UNDER THIS REPO SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT THE WEBSITES HOSTING THE CONTENT IF WANT IT REMOVED [CR] [/B]</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.covenant" version="1.1.0" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. Use at your own risk!</disclaimer>
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>[B]1.1.0[/B][CR]- Official release[CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers[CR]- Artwork changes[CR]- Minor improvements</news>
+	</extension>
+</addon>
+<addon id="plugin.video.exodus" version="3.1.22" name="Exodus" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.exodus.artwork" version="1.0.5" />
+		<import addon="script.exodus.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus</summary>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<news>Last Version Made From The TVA Guys, If anything changes will be listed here, this version should fix install errors</news>
+	</extension>
+</addon>
+<addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
+    <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodisrael repository</summary>
+        <description>kodil repository - the most extensive repository in isrl </description>
+        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.ozlive" name="Oz Live TV" version="1.2" provider-name="KJB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Aussie TV</summary>
+    <description lang="en">Live Australian TV [CR][CR][CR]If you paid for this software or paid for it to be included in your fully loaded Kodi box then ask the seller for a refund. Kodi and its addons are free and always will be.
+	</description>
+    <disclaimer lang="en">Author does not host streams and takes no responsibility for the distribution, use or content in this addon. Streams shared freely for information purposes only. Content may not be legal in your country to view and may be geoblocked for your location.</disclaimer>
+    <language>EN</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+<addon id="repository.smash" name="Smash repository" version="1.1.6" provider-name="SMASH">
+	<extension point="xbmc.addon.repository" name="Smash repository">
+	<dir>
+        <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
+        <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
+        <datadir zip="true">http://mediarepos.net/Repos/smashrepo/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">[B]THE ADDONS UNDER THIS REPO SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT THE WEBSITES HOSTING THE CONTENT IF WANT IT REMOVED [CR] [/B]Donating Will Help With Hosting paypal.me/BrianSMASH [CR] [B]Smash Repo Change Log 1.1.4[/B] [CR] - Added Some Things [CR] - Fixed Repos [CR] - check for updates before going into vid addons</description>
+		<platform>all</platform>
+		<forum></forum>
+        <website></website>
+		<news>People hate that i got donations cause the community wanted a repo to grab exodus and other working addons for them self and family, i got hit with a ddos and more and to get protection for this is not cheap so i thank everyone who donated and also im sorry for the downtime will try and keep this running good</news>
+	</extension>
+</addon>
+<addon id="script.covenant.artwork" version="1.0.2" name="Covenant Artwork" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Covenant Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.covenant.metadata" version="1.0.0" name="Covenant Metadata" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Covenant Addon</summary>
+		<description>Metadata for Covenant are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
