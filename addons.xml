@@ -100,7 +100,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.ozlive" name="Oz Live TV" version="1.3" provider-name="KJB">
+<addon id="plugin.video.ozlive" name="Oz Live TV" version="1.4" provider-name="KJB">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
