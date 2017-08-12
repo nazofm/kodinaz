@@ -1,9 +1,9 @@
 <addons>
-<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.0.7" provider-name="kodinaz">
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.0.8" provider-name="kodinaz">
     <requires>
-		<import addon="repository.kodil" version="1.3" />
-		<import addon="repository.colossus" version="999.999.2" />		
-		<import addon="plugin.video.covenant" version="1.1.1" />
+		<import addon="repository.kodil" version="1.0" />
+		<import addon="repository.colossus" version="000.000.0" />		
+		<import addon="plugin.video.covenant" version="1.0.0/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Kodinaz Repository ">
         <info compressed="false">https://raw.githubusercontent.com/nazofm/kodinaz/master/addons.xml</info>
@@ -16,8 +16,8 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
-    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
@@ -33,7 +33,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.covenant" version="1.1.1" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.5" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -47,13 +47,13 @@
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Covenant</summary>
-		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
 		<website></website>
 		<source></source>
-		<disclaimer lang="en">The authors of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 
 		<assets>
 			<icon>icon.png</icon>
@@ -62,10 +62,9 @@
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.1[/B][CR]- Fix trakt support[CR]- Updated existing providers[CR]- Added new providers</news>
+		<news>[B]1.1.3[/B][CR]Code cosmetics</news>
 	</extension>
 </addon>
-
 <addon id="plugin.video.exodus" version="3.1.22" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -125,8 +124,8 @@
     </assets>
   </extension>
 </addon>
-<addon id="repository.smash" name="Smash repository" version="1.1.8" provider-name="SMASH">
-	<extension point="xbmc.addon.repository" name="Smash repository">
+<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
+	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
         <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
         <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
@@ -134,12 +133,12 @@
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
-		<description lang="en">[B]THE ADDONS UNDER THIS REPO SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT THE WEBSITES HOSTING THE CONTENT IF WANT IT REMOVED [CR] [B]Smash Repo Change Log 1.1.7[/B] [CR] - Removed Addons That Are Now In Colossal Repository [CR] - Fixed Repos [CR] - check for updates before going into vid addons</description>
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Are Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">ADDONS UNDER THIS SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT WEBSITES IF WANT REMOVED [CR] Wanna Help With Server Cost Donate www.paypal.me/BrianSMASH [CR] [B]Smash Repo Change Log 1.2.7[/B] [CR] Added Some New Addons Time For Change People [CR] check for updates before going into vid addons</description>
 		<platform>all</platform>
 		<forum></forum>
         <website></website>
-		<news>People hate that i got donations cause the community wanted a repo to grab exodus and other working addons for them self and family, i got hit with a ddos and more and to get protection for this is not cheap so i thank everyone who donated and also im sorry for the downtime will try and keep this running good</news>
+		<news>IF YOU DO WANNA HELP YOU CAN FOLLOW ME ON TWITTER @XSMASHX88X AND SUB TO MY CHANNEL WWW.YOUTUBE.COM/XSMASHX88X</news>
 	</extension>
 </addon>
 <addon id="script.covenant.artwork" version="1.0.2" name="Covenant Artwork" provider-name="Covenant">
