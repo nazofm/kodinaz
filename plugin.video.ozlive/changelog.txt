@@ -1,0 +1,30 @@
+Version 1.2
+-Fix broken links
+
+Version 1.1
+-Change icon filetypes
+
+Version 1.0
+-Repo Update
+
+Version 0.0.6
+-Channel fix
+-X Forwarding (Thanks to mattrix)
+
+Version 0.0.5
+-
+
+Version 0.0.4
+-Add SBS
+
+Version 0.0.3
+-Fix channel 10
+
+Version 0.0.2
+-Add logos
+
+Version 0.0.1
+-Lets go
+
+Disclaimer:
+I do not own or mantain any of these streams. They may go down from time to time as sources change and will usually be corrected in the next update. Streams are provided freely for information purposed and may not be legal to view in your country. Author takes no responsibility for the content, use or distribution of this addon.
