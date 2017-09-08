@@ -125,6 +125,33 @@
     </assets>
   </extension>
 </addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.freeviewau" name="Freeview AU" version="1.0" provider-name="KodiNaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Freeview Australia Live TV</summary>
+    <description lang="en">Freeview Australia Live TV[CR][CR][CR]If you paid for this software or paid for it to be included in your fully loaded Kodi box then ask the seller for a refund. Kodi and its addons are free and always will be.
+	</description>
+    <disclaimer lang="en">Author does not host streams and takes no responsibility for the distribution, use or content in this addon. Streams shared freely for information purposes only. Content may not be legal in your country to view and may be geoblocked for your location.</disclaimer>
+    <language>EN</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
