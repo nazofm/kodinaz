@@ -100,7 +100,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.ozlive" name="Freeview AU" version="1.8" provider-name="KodiNaz">
+<addon id="plugin.video.ozlive" name="Freeview AU" version="1.9" provider-name="KodiNaz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
