@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ozlive" name="Oz Live TV" version="1.4" provider-name="KJB">
+<addon id="plugin.video.ozlive" name="Freeview AU" version="1.9" provider-name="KodiNaz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,6 +9,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Live Aussie TV</summary>
+    <summary lang="en">Live Aussie Freeview</summary>
     <description lang="en">Live Australian TV [CR][CR][CR]If you paid for this software or paid for it to be included in your fully loaded Kodi box then ask the seller for a refund. Kodi and its addons are free and always will be.
 	</description>
     <disclaimer lang="en">Author does not host streams and takes no responsibility for the distribution, use or content in this addon. Streams shared freely for information purposes only. Content may not be legal in your country to view and may be geoblocked for your location.</disclaimer>
