@@ -1,5 +1,6 @@
-<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.0.9" provider-name="kodinaz">
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.0.10" provider-name="kodinaz">
     <requires>
+		<import addon="repository.xvbmc" version="4.2.0" />
 		<import addon="repository.smash" version="1.2.7" />
 		<import addon="repository.colossus" version="999.999.2" />		
 		<import addon="plugin.video.covenant" version="1.1.1" />
