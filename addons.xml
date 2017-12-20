@@ -5,7 +5,7 @@
 		<import addon="repository.blamo" version="0.0.2" />
 		<import addon="repository.smash" version="1.2.7" />
 		<import addon="repository.colossus" version="999.999.2" />		
-		<import addon="plugin.video.covenant" version="1.1.1" />
+		<import addon="plugin.video.covenant" version="1.1.30" />
 		<import addon="plugin.video.neptune" version="1.2.3" />
 	</requires>
 	<extension point="xbmc.addon.repository" name="Kodinaz Repository ">
