@@ -1,7 +1,7 @@
 <addons>
 <addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.1.1" provider-name="kodinaz">
     <requires>
-		<import addon="repository.blamo" version="0.0.2" />
+		<import addon="repository.blamo" version="0.1.4" />
 		<import addon="repository.colossus" version="999.999.9" />		
 		<import addon="plugin.video.covenant" version="1.1.34" />
 		<import addon="plugin.video.neptune" version="1.2.3" />
@@ -17,25 +17,45 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.2" provider-name="Blamo">
-	<extension point="xbmc.addon.repository" name="lookingglass">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teverz/blamo/master/zips/</datadir>		
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en">The Official Repo for Blamo</description>
-		<genre>movies,usa</genre>
-	</extension>
-</addon>
+<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.4" provider-name="Mr Blamo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+			<dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>The Official Repo for Mr Blamo</summary>
+            <description>The Official Repo for Mr Blamo</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
 <addon id="script.module.covenant" name="Covenant Module" version="1.00.030" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
