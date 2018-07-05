@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.2.0" commit="6ebe409">
+  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by MattHuisman.nz</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
+    <news>0.2.0 #6ebe409 (29/06/2018)
+- Update addon.xml</news>
+  </extension>
+</addon>
