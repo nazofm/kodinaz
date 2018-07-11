@@ -409,10 +409,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.python.koding.aio"
-   name="Python Koding AIO"
-   version="1.0"
-   provider-name="Total Revolution">
+<addon id="script.module.python.koding.aio" name="Python Koding AIO" version="1.0" provider-name="Total Revolution">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver" version="1.2.0"/>
@@ -505,6 +502,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 		</assets>
 		<news></news>
 	</extension>
+</addon>
 <addon id="script.module.placenta" name="Placenta Module" version="1.5.5" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
