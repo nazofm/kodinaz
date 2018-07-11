@@ -1,4 +1,4 @@
-<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.1.7" provider-name="kodinaz">
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.1.8" provider-name="kodinaz">
     <requires>
 		<import addon="repository.blamo" version="0.1.4" />
 		<import addon="repository.colossus" version="999.999.9" />		
