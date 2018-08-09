@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ozlive" name="Freeview AU" version="2.2" provider-name="KodiNaz">
+<addon id="plugin.video.ozlive" name="Freeview AU" version="2.3" provider-name="KodiNaz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
