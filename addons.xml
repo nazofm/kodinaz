@@ -20,7 +20,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.7" provider-name="Mr Blamo">
+<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.7" provider-name="Mr Blamo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -58,7 +58,7 @@
             <platform>all</platform>
             <genre>movies,usa</genre>
         </extension>
-    </addon>
+</addon>
 
 <addon id="script.module.schism.common" name="Elysium Common Libraries" version="2017.06.08" provider-name="Elysium">
 	<requires>
