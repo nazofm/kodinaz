@@ -1,7 +1,8 @@
 <addons>
-<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.1.8" provider-name="kodinaz">
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.1.9" provider-name="kodinaz">
     <requires>
 		<import addon="repository.blamo" version="0.1.7" />
+		<import addon="plugin.video.covenant" version="1.1.34" />
 		<import addon="plugin.video.neptune" version="1.2.3" />
 		<import addon="repository.Brettusrepo" version="1.0" />
 		<import addon="plugin.video.TheKingdom" version="7.5.3" />
