@@ -1,9 +1,6 @@
 <addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.2.2" provider-name="kodinaz">
     <requires>
-		<import addon="repository.blamo" />
-		<import addon="plugin.video.neptune"/>
-		<import addon="repository.matthuisman" />
-		<import addon="plugin.video.placenta" />
+
 	</requires>
 	<extension point="xbmc.addon.repository" name="Kodinaz Repository ">
         <info compressed="false">https://raw.githubusercontent.com/nazofm/kodinaz/master/addons.xml</info>
