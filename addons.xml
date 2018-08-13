@@ -1,5 +1,5 @@
 <addons>
-<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.2.0" provider-name="kodinaz">
+<addon id="repository.kodinaz" name=".[COLOR blue]Kodinaz[/COLOR][COLOR white] Repository [/COLOR]" version="1.2.1" provider-name="kodinaz">
     <requires>
 		<import addon="repository.blamo" />
 		<import addon="plugin.video.neptune"/>
