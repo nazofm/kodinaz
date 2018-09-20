@@ -277,7 +277,39 @@ Fixed search issue caused by character accents
 		</news>
 	</extension>
 </addon>
-
+<addon id="script.module.incursion" name="Incursion Module" version="1.20" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Incursion</summary>
+	</extension>
+</addon>
+<addon id="script.incursion.artwork" version="1.0.7" name="Incursion Artwork" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Incursion Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.incursion.metadata" version="1.0.3" name="Incursion Metadata" provider-name="Incursion">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Incursion Addon</summary>
+		<description>Metadata for Incursion are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 
 <addon id="script.module.schism.common" name="Elysium Common Libraries" version="2017.06.08" provider-name="Elysium">
 	<requires>
