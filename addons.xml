@@ -157,7 +157,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<forum>https://gaiakodi.com/?support</forum>
 	</extension>
 </addon>
-<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
+<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="2.0.0" provider-name="kodibae">
+    <requires>
+        <import addon="repository.thebackup" version="1.0.0"/>
+    </requires>
     <extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
     <dir>
         <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
@@ -171,6 +174,18 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <extension point="xbmc.addon.metadata">
         <summary>Unofficial Addons for Kodi</summary>
         <description>Would you care for some salt with that fork?</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.thebackup" name="[COLOR orange]The Backup[/COLOR]" version="1.0.0" provider-name="thebackup">
+    <extension point="xbmc.addon.repository" name="[COLOR orange]The Backup Repository[/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/thebackup/repository.thebackup/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/thebackup/repository.thebackup/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Backup Kodi Addon Repository</summary>
+        <description>I'm Lovin' It</description>
         <platform>all</platform>
     </extension>
 </addon>
@@ -336,7 +351,7 @@ Revert to stable code
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.exodus" name="Exodus Module" version="1.6" provider-name="Exodus">
+<addon id="script.module.exodus" name="Exodus Module" version="3.1.4" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
